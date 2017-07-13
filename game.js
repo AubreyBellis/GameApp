@@ -1,1 +1,0 @@
-onclick=$('#cat1q1').click( function() { alert('clicked'); });

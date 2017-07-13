@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script|Dancing+Script|Neucha|Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script|Dancing+Script|Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Anton|Bangers" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
-integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="style.css">
+
+
 
 <title>Jeopardy</title>
 
@@ -19,29 +24,50 @@ integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh
 </head>
 
 <body>
+    
+<h1>
+    <ul>Category1</ul>
+    <ul>Category2</ul>
+    <ul>Category3</ul>
+    <ul>Category4</ul>
+    <ul>Category5</ul>
+</h1>
 
-<div class ='container'>
-    <table class= 'table'>
-        <tr>
-            <td><button id= 'cats'>Cat1</button><button>Cat2</button><button>Cat3</button><button>Cat4</button><button>Cat5</button></td>
-        </tr>      
-        <tr>
-            <td><button id= 'cat1q1'>$100</button><button id= 'cat1q2'>$200</button><button id= 'cat1q3'>$300</button><button id= 'cat1q4'>$350</button><button id= 'cat1q5'>$500</button></td>
-        </tr>
-        <tr>
-            <td><button id= 'cat2q1'>$150</button><button id= 'cat2q2'>$215</button><button id= 'cat2q3'>$300</button><button id= 'cat2q4'>$375</button><button id= 'cat2q5'>$550</button></td>
-        </tr>
-        <tr>
-            <td><button id= 'cat3q1'>$200</button><button id= 'cat3q2'>$250</button><button id= 'cat3q3'>$315</button><button id= 'cat3q4'>$400</button><button id= 'cat3q5'>$600</button></td>
-        </tr>
-        <tr>
-            <td><button id= 'cat4q1'>$250</button><button id= 'cat4q2'>$300</button><button id= 'cat4q3'>$350</button><button id= 'cat4q4'>$450</button><button id= 'cat4q5'>$650</button></td>
-        </tr>
-        <tr>
-            <td><button id= 'cat5q1'>$300</button><button id= 'cat5q2'>$350</button><button id= 'cat5q3'>$400</button><button id= 'cat5q4'>$500</button><button id= 'cat5q5'>$700</button></td>
-        </tr>
-        </table>
-</div>
+ <div class="btn-group-vertical">
+    <button type="button" class="btn btn-primary 1">$100</button>
+    <button type="button" class="btn btn-primary 1">$150</button>
+    <button type="button" class="btn btn-primary 1">$200</button>
+    <button type="button" class="btn btn-primary 1">$250</button>
+    <button type="button" class="btn btn-primary 1">$300</button>
+  </div>
+ <div class="btn-group-vertical">
+    <button type="button" class="btn btn-primary 2">$200</button>
+    <button type="button" class="btn btn-primary 2">$275</button>
+    <button type="button" class="btn btn-primary 2">$300</button>
+    <button type="button" class="btn btn-primary 2">$350</button>
+    <button type="button" class="btn btn-primary 2">$400</button>
+  </div>
+   <div class="btn-group-vertical">
+    <button type="button" class="btn btn-primary 3">$250</button>
+    <button type="button" class="btn btn-primary 3">$300</button>
+    <button type="button" class="btn btn-primary 3">$350</button>
+    <button type="button" class="btn btn-primary 3">$400</button>
+    <button type="button" class="btn btn-primary 3">$450</button>
+  </div>
+    <div class="btn-group-vertical">
+    <button type="button" class="btn btn-primary 4">$300</button>
+    <button type="button" class="btn btn-primary 4">$350</button>
+    <button type="button" class="btn btn-primary 4">$375</button>
+    <button type="button" class="btn btn-primary 4">$400</button>
+    <button type="button" class="btn btn-primary 4">$450</button>
+    </div>
+       <div class="btn-group-vertical">
+    <button type="button" class="btn btn-primary 5">$350</button>
+    <button type="button" class="btn btn-primary 5">$400</button>
+    <button type="button" class="btn btn-primary 5">$470</button>
+    <button type="button" class="btn btn-primary 5">$550</button>
+    <button type="button" class="btn btn-primary 5">$600</button>
+    </div>
 
 
 
@@ -50,17 +76,11 @@ integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh
 
 
 
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-
-
-
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
-integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
-crossorigin="anonymous"></script> 
-   <link rel="stylesheet" href="style.css">
-   <script src='game.js'></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </body>
 </html>

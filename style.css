@@ -3,31 +3,77 @@ header {
     text-decoration-style: double;
     text-decoration: underline;
     font: satisfy;
-    font-family: 'Anton', sans-serif;
-    font-family: 'Bangers', cursive;
-    font-size: 100px;   
+    font-family: 'Pacifico', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Bad Script', cursive;
+    font-family: 'Neucha', cursive;
+    font-size: 120px;   
     display:flex;   
     align-content: center;
     justify-content: center;
-    color: blueviolet;
-};
-
-.container {
+    color:blue; 
+}
+h1 {
     display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
+    justify-content:flex-start;
+    align-content: stretch;
+    align-items: space-between;
+    font-size: 41px;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Bad Script', cursive;
+    font-family: 'Neucha', cursive;
+    }
+.btn {
+   padding: 6px 12px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: normal;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.btn-group-vertical>.btn, .btn-group-vertical>.btn-group, .btn-group-vertical>.btn-group>.btn {
+    display: flex;
+    float: center;
+    width: 100%;
+    max-width: 100%;
 }
 
-.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
-    padding: 8px;
-    line-height: 1.42857143;
-    vertical-align: top;
-    border-top: 1px solid #ddd;
-    display: flex;
+
+
+
+div.btn-group-vertical {
+    display:flex;
     justify-content: center;
-    align-items: center;
-    font-family: 'Anton', sans-serif;
-    font-family: 'Bangers', cursive;
-    font-size: 40px;    
-};
+    align-content: center;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Bad Script', cursive;
+    font-family: 'Neucha', cursive;
+    font-size: 100px;
+    }
+
+.container-fluid  {
+display:flex;
+justify-content:flex-start;
+align-content: space-between;
+align-items: center;
+
+}
+
+
