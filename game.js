@@ -13,11 +13,11 @@
 
 
 ///questions:
-var quest1 = 
-var quest2 =
-var quest3 =
-var quest4 =
-var quest5 = 
+var quest1 ='Who is the known as the -Lady with the lamp?-';
+var quest2 = 'Who was the first christian roman emperor?';
+var quest3 = 'Who is known as the -The maid of New Orleans?-';
+var quest4 = 'Who became an American Chess Grandmaster at age 15?';
+var quest5 = 'Who is known as -Americas Cowboy Philosopher?-';
 var quest6 = 
 var quest7 =
 var quest8 = 
@@ -40,11 +40,11 @@ var quest24 =
 var quest25 =
 
 ////Answers: 
-var ans1 =
-var ans2 =
-var ans3 =
-var ans4 =
-var ans5 =
+var ans1 = 'Who is Florence Nightingale'
+var ans2 = 'Who is Constantine'
+var ans3 = 'Who is Joan of Arc'
+var ans4 = 'Who is Bobby Fischer'
+var ans5 = 'Who is Will Rogers'
 var ans6 =
 var ans7 =
 var ans8 =

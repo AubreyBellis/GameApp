@@ -11,18 +11,20 @@ header {
     display:flex;   
     align-content: center;
     justify-content: center;
-    color:blue; 
+    color:peachpuff; 
 }
 h1 {
     display: flex;
     justify-content:flex-start;
-    align-content: stretch;
+    align-content: center;
     align-items: space-between;
-    font-size: 41px;
+    font-size: 43px;
     font-family: 'Pacifico', cursive;
     font-family: 'Dancing Script', cursive;
     font-family: 'Bad Script', cursive;
     font-family: 'Neucha', cursive;
+    padding: 0;
+   
     }
 .btn {
    padding: 6px 12px;
@@ -46,6 +48,7 @@ h1 {
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
+    color:peachpuff;
 }
 .btn-group-vertical>.btn, .btn-group-vertical>.btn-group, .btn-group-vertical>.btn-group>.btn {
     display: flex;
@@ -66,6 +69,7 @@ div.btn-group-vertical {
     font-family: 'Bad Script', cursive;
     font-family: 'Neucha', cursive;
     font-size: 100px;
+    color: peachpuff;
     }
 
 .container-fluid  {
