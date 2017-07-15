@@ -10,7 +10,7 @@
 
 //write function for each question and answer with if else 
 
-$("#11").on('click',function() {
+$("#11").on('click',function(input) {
     var x = prompt(quest1)
     if (x === ans1) {
         alert('You got it!');
@@ -66,7 +66,7 @@ var quest2 = 'Who was the first christian roman emperor?';
 var quest3 = "Who is known as the 'The maid of New Orleans?'";
 var quest4 = 'Who became an American Chess Grandmaster at age 15?';
 var quest5 = 'Who is known as -Americas Cowboy Philosopher?';
-var quest6 = ""'I have a dream!'";
+var quest6 = "'I have a dream!'";
 // var quest7 = ""'I can resist anything but temptation'";
 // var quest8 = 
 // var quest9 =
@@ -114,6 +114,29 @@ var ans6 = 'Who is Martin Luther King'
 // var ans24 =
 // var ans25 = 
 
-
+$(document).ready(function(){
+  $('input[type=text][title],input[type=password][title],textarea[title]').each(function(i){
+    $(this).addClass('input-prompt-' + i);
+    var promptSpan = $('<span class="input-prompt"/>');
+    $(promptSpan).attr('id', 'input-prompt-' + i);
+    $(promptSpan).append($(this).attr('title'));
+    $(promptSpan).click(function(){
+      $(this).hide();
+      $('.' + $(this).attr('id')).focus();
+    });
+    if($(this).val() != ''){
+      $(promptSpan).hide();
+    }
+    $(this).before(promptSpan);
+    $(this).focus(function(){
+      $('#input-prompt-' + i).hide();
+    });
+    $(this).blur(function(){
+      if($(this).val() == ''){
+        $('#input-prompt-' + i).show();
+      }
+    });
+  });
+});
 
 

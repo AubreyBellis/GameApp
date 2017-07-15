@@ -24,8 +24,7 @@ h1 {
     font-family: 'Bad Script', cursive;
     font-family: 'Neucha', cursive;
     padding: 0;
-   
-    }
+}
 .btn {
    padding: 6px 12px;
     margin-bottom: 5px;
@@ -50,15 +49,13 @@ h1 {
     border-radius: 4px;
     color:peachpuff;
 }
+
 .btn-group-vertical>.btn, .btn-group-vertical>.btn-group, .btn-group-vertical>.btn-group>.btn {
     display: flex;
     float: center;
     width: 100%;
     max-width: 100%;
 }
-
-
-
 
 div.btn-group-vertical {
     display:flex;
@@ -72,12 +69,17 @@ div.btn-group-vertical {
     color: peachpuff;
     }
 
-.container-fluid  {
-display:flex;
-justify-content:flex-start;
-align-content: space-between;
-align-items: center;
-
+/*Tried to customize my alert box but was not successful yet
+/* .alert-success {
+    color: #3c763d;
+    background-color:lightcyan;
+    border-color: tan;
 }
 
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+} */
  
