@@ -215,31 +215,31 @@ $("#55").on('click',function(){
     }
 });
 ///questions:
-var quest1 = "Who is the known as the 'Lady with the lamp?'";
-var quest2 = 'Who was the first christian roman emperor?';
-var quest3 = "Who is known as the 'The maid of New Orleans?'";
-var quest4 = 'Who became an American Chess Grandmaster at age 15?';
-var quest5 = "'Who is known as Americas Cowboy Philosopher?'";
+var quest1 = "know as the 'Lady with the lamp?'";
+var quest2 = 'First christian roman emperor?';
+var quest3 = "Known as the 'The maid of New Orleans?'";
+var quest4 = 'Became an American Chess Grandmaster at age 15?';
+var quest5 = "Known as 'Americas Cowboy Philosopher?'";
 var quest6 = "'I have a dream!'";
 var quest7 = "'I can resist anything but temptation'";
-var quest8 = "' Two roads diverged in the a wood and I took the one less traveled.'";
-var quest9 = "' Believe you can and you're halfway there'";
+var quest8 = "'Two roads diverged in the a wood and I took the one less traveled.'";
+var quest9 = "'Believe you can and you're halfway there'";
 var quest10 = "'I didn’t fail the test. I just found 100 ways to do it wrong.'";
-var quest11 = 'What does AA stand for?';
-var quest12 = 'What does CIA stand for?';
-var quest13 = 'What does EPA stand for?';
-var quest14 = 'What does AWOL stand for?';
-var quest15 = 'What does CAD stand for?';
-var quest16 = "What city is known as the 'City of Lakes'";
-var quest17 = 'What is the oldest State Capital in the US?';
-var quest18 = "What city is known as the 'Big Peach?'";
-var quest19 = "What city is known as the 'City of Roses?'";
-var quest20 = 'What was the first capital in California?';
-var quest21 = 'What is a baby whale called?';
-var quest22 = 'A group of Doves is called what?';
-var quest23 = 'A snake hears with what organ?';
-var quest24 = 'From what country does the Dalmation dog breed come from?';
-var quest25 = 'In British Columbia its illegal to kill what animal?';
+var quest11 = 'AA';
+var quest12 = 'CIA';
+var quest13 = 'EPA';
+var quest14 = 'AWOL';
+var quest15 = 'CAD';
+var quest16 = "Known as the 'City of Lakes'";
+var quest17 = 'Oldest State Capital in the US';
+var quest18 = "City is known as the 'Big Peach'";
+var quest19 = "City is known as the 'City of Roses'";
+var quest20 = 'First capital in California';
+var quest21 = 'Baby Whale';
+var quest22 = 'A group of Doves';
+var quest23 = 'Organ that a snake hears with';
+var quest24 = 'Country the Dalmation dog breed came from';
+var quest25 = 'In British Columbia its illegal to kill this animal';
 
 ////Answers: 
 var ans1 = 'Who is Florence Nightingale';
