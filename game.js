@@ -214,7 +214,7 @@ $("#55").on('click',function(){
         alert('Sorry, that is wrong!');
     }
 });
-///questions:
+///questions for each button on board:
 var quest1 = "know as the 'Lady with the lamp?'";
 var quest2 = 'First christian roman emperor?';
 var quest3 = "Known as the 'The maid of New Orleans?'";
@@ -241,7 +241,7 @@ var quest23 = 'Organ that a snake hears with';
 var quest24 = 'Country the Dalmation dog breed came from';
 var quest25 = 'In British Columbia its illegal to kill this animal';
 
-////Answers: 
+////Answers for each question on the board: 
 var ans1 = 'Who is Florence Nightingale';
 var ans2 = 'Who is Constantine';
 var ans3 = 'Who is Joan of Arc';
