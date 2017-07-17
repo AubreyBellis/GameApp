@@ -227,7 +227,7 @@ $("#55").on('click',function(){
 ///questions for each button on board:
 var quest1 = 'longest bone in the body';
 var quest2 = 'Worlds biggest island';
-var quest3 = 'The three primary colors';
+var quest3 = 'The three visual primary colors';
 var quest4 = 'The fear of fun';
 var quest5 = 'A group of butterflies';
 var quest6 = "'I have a dream!'";
