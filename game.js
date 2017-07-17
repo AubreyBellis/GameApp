@@ -254,7 +254,7 @@ var quest25 = 'In British Columbia its illegal to kill this animal';
 ////Answers for each question on the board: 
 var ans1 = 'What is the femur?';
 var ans2 = 'What is Greenland?';
-var ans3 = 'red,yellow,blue?';
+var ans3 = 'What are red,yellow,blue?';
 var ans4 = 'What is cherophobia?';
 var ans5 = 'What is a flutter?';
 var ans6 = 'Who is Martin Luther King?';
