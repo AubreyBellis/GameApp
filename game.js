@@ -215,8 +215,8 @@ $("#55").on('click',function(){
     }
 });
 ///questions for each button on board:
-var quest1 = "know as the 'Lady with the lamp?'";
-var quest2 = 'First christian roman emperor?';
+var quest1 = 'longest bone in the body';
+var quest2 = 'Worlds biggest island';
 var quest3 = "Known as the 'The maid of New Orleans?'";
 var quest4 = 'Became an American Chess Grandmaster at age 15?';
 var quest5 = "Known as 'Americas Cowboy Philosopher?'";
@@ -231,7 +231,7 @@ var quest13 = 'EPA';
 var quest14 = 'AWOL';
 var quest15 = 'CAD';
 var quest16 = "'Known as the 'City of Lakes'";
-var quest17 = 'Oldest State Capital in the US';
+var quest17 = 'First capital city in the US';
 var quest18 = "City is known as the 'Big Peach'";
 var quest19 = "City is known as the 'City of Roses'";
 var quest20 = 'First capital in California';
@@ -242,7 +242,7 @@ var quest24 = 'Country the Dalmation dog breed came from';
 var quest25 = 'In British Columbia its illegal to kill this animal';
 
 ////Answers for each question on the board: 
-var ans1 = 'Who is Florence Nightingale?';
+var ans1 = 'What is the femur?';
 var ans2 = 'Who is Constantine?';
 var ans3 = 'Who is Joan of Arc?';
 var ans4 = 'Who is Bobby Fischer?';
@@ -258,7 +258,7 @@ var ans13 = 'What is the Environmental Protection Agency?';
 var ans14 = 'What is Abscence without leave?';
 var ans15 = 'What is Computer Aided Design?';
 var ans16 = 'What is Minneapolis, Minnesota?';
-var ans17 = 'What is Santa Fe, NM?';
+var ans17 = 'What is Philadelphia?';
 var ans18 = 'What is Atlanta, Georgia?';
 var ans19 = 'What is Portland, Oregon?';
 var ans20 = 'What is San Jose?';
