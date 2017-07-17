@@ -1,6 +1,6 @@
 # **Jeopardy**
 <a href="http://imgur.com/SSKKire"><img src="http://i.imgur.com/SSKKire.png" title="source: imgur.com" /></a>
-***Objective:*** 
+# ***Objective:*** 
 
 
 * This is a quiz game where the user gets to choose the next question by choosing from a category and then choosing a dollar amount.
@@ -15,7 +15,7 @@
 
 
 
-## Technology Used:
+## ***Technology Used***:
 * HTML
 * CSS
 * JavaScript
