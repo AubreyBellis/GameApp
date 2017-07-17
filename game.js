@@ -50,7 +50,7 @@ $("#51").on('click',function(){
         alert('Sorry, that is wrong!');
     }
 });
-//Start of set column of buttons from top to bottom
+//Start of second set column of buttons from top to bottom
 $("#12").on('click',function(){
     var x = prompt(quest6)
     if (x === ans6) {
@@ -242,31 +242,31 @@ var quest24 = 'Country the Dalmation dog breed came from';
 var quest25 = 'In British Columbia its illegal to kill this animal';
 
 ////Answers for each question on the board: 
-var ans1 = 'Who is Florence Nightingale';
-var ans2 = 'Who is Constantine';
-var ans3 = 'Who is Joan of Arc';
-var ans4 = 'Who is Bobby Fischer';
-var ans5 = 'Who is Will Rogers';
-var ans6 = 'Who is Martin Luther King';
-var ans7= 'Who is Oscar Wilde';
-var ans8 ='Who is Robert Frost';
-var ans9 = 'Who is Theodore Roosevelt';
-var ans10 = 'Who is Benjamin Franklin';
-var ans11 = 'What is Alcoholics Anonymous';
-var ans12 = 'What is the Central Intelligence Agency';
-var ans13 = 'What is the Environmental Protection Agency';
-var ans14 = 'What is Abscence without leave';
-var ans15 = 'What is Computer Aided Design';
-var ans16 = 'What is Minneapolis, Minnesota';
-var ans17 = 'What is Santa Fe, New Mexico';
-var ans18 = 'What is Atlanta, Georgia';
-var ans19 = 'What is Portland, Oregon';
-var ans20 = 'What is San Jose';
-var ans21 = 'What is a calf';
-var ans22 = 'What is a dule';
-var ans23 = 'What is a tongue';
-var ans24 = 'What is Yugoslavia';
-var ans25 = 'What is Sasquatch';
+var ans1 = 'Who is Florence Nightingale?';
+var ans2 = 'Who is Constantine?';
+var ans3 = 'Who is Joan of Arc?';
+var ans4 = 'Who is Bobby Fischer?';
+var ans5 = 'Who is Will Rogers?';
+var ans6 = 'Who is Martin Luther King?';
+var ans7= 'Who is Oscar Wilde?';
+var ans8 ='Who is Robert Frost?';
+var ans9 = 'Who is Theodore Roosevelt?';
+var ans10 = 'Who is Benjamin Franklin?';
+var ans11 = 'What is Alcoholics Anonymous?';
+var ans12 = 'What is the Central Intelligence Agency?';
+var ans13 = 'What is the Environmental Protection Agency?';
+var ans14 = 'What is Abscence without leave?';
+var ans15 = 'What is Computer Aided Design?';
+var ans16 = 'What is Minneapolis, Minnesota?';
+var ans17 = 'What is Santa Fe, New Mexico?';
+var ans18 = 'What is Atlanta, Georgia?';
+var ans19 = 'What is Portland, Oregon?';
+var ans20 = 'What is San Jose?';
+var ans21 = 'What is a calf?';
+var ans22 = 'What is a dule?';
+var ans23 = 'What is a tongue?';
+var ans24 = 'What is Yugoslavia?';
+var ans25 = 'What is Sasquatch?';
 
 
 
