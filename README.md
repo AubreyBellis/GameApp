@@ -9,3 +9,26 @@
 * The questions are phrased as answers and the user should input the correct answer as a question into the prompt. 
 
 * The game will alert the user if the answer is correct or incorrect.
+
+## Technology Used:
+* HTML
+* CSS
+* JavaScript
+* JQuery
+* Bootstrap
+
+
+
+
+
+
+
+
+[Wireframe Mockup](http://i.imgur.com/B3hEsAs.png)
+
+
+
+[Trello Board](https://trello.com/b/nA1WYiZm/wdi-project-1)
+
+[GitHub]()
+
