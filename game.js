@@ -276,7 +276,7 @@ var ans21 = 'What is a calf?';
 var ans22 = 'What is a dule?';
 var ans23 = 'What is a tongue?';
 var ans24 = 'What is Yugoslavia?';
-var ans25 = 'What is a  Sasquatch?';
+var ans25 = 'What is a Sasquatch?';
 
 
 
