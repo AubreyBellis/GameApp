@@ -217,9 +217,9 @@ $("#55").on('click',function(){
 ///questions for each button on board:
 var quest1 = 'longest bone in the body';
 var quest2 = 'Worlds biggest island';
-var quest3 = "Known as the 'The maid of New Orleans?'";
-var quest4 = 'Became an American Chess Grandmaster at age 15?';
-var quest5 = "Known as 'Americas Cowboy Philosopher?'";
+var quest3 = 'The three primary colors';
+var quest4 = 'The fear of fun';
+var quest5 = 'A group of butterflies';
 var quest6 = "'I have a dream!'";
 var quest7 = "'I can resist anything but temptation'";
 var quest8 = "'Two roads diverged in the a wood and I took the one less traveled.'";
@@ -243,10 +243,10 @@ var quest25 = 'In British Columbia its illegal to kill this animal';
 
 ////Answers for each question on the board: 
 var ans1 = 'What is the femur?';
-var ans2 = 'Who is Constantine?';
-var ans3 = 'Who is Joan of Arc?';
-var ans4 = 'Who is Bobby Fischer?';
-var ans5 = 'Who is Will Rogers?';
+var ans2 = 'What is Greenland?';
+var ans3 = 'red,yellow,blue?';
+var ans4 = 'What is cherophobia?';
+var ans5 = 'What is a flutter?';
 var ans6 = 'Who is Martin Luther King?';
 var ans7= 'Who is Oscar Wilde?';
 var ans8 ='Who is Robert Frost?';
