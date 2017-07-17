@@ -21,6 +21,7 @@
 * JavaScript
 * JQuery
 * Bootstrap
+* Google Fonts
 
 
 
