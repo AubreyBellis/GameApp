@@ -7,7 +7,7 @@ header {
     font-family: 'Dancing Script', cursive;
     font-family: 'Bad Script', cursive;
     font-family: 'Neucha', cursive;
-    font-size: 120px;   
+    font-size: 135px;   
     display:flex;   
     align-content: center;
     justify-content: center;
@@ -24,7 +24,7 @@ h1 {
     justify-content: center;
     align-content: flex-start;
     align-items: center;
-    font-size: 50px;
+    font-size: 53px;
     font-family: 'Pacifico', cursive;
     font-family: 'Dancing Script', cursive;
     font-family: 'Bad Script', cursive;
@@ -35,7 +35,7 @@ h1 {
     column-span: all;
     perspective: none;
     letter-spacing: 1px;
-    word-spacing: 4px;
+    word-spacing: 50px;
 }
 .btn {
    padding: 6px 12px;
