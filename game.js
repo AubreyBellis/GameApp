@@ -8,6 +8,16 @@
 //    whenClicked();
 // })
 
+
+
+
+
+
+
+
+
+
+
 //write function for each question and answer with if else 
 
 $("#11").on('click',function(input) {
